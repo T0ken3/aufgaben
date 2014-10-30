@@ -1,0 +1,1 @@
+var notePad = new NotePad();

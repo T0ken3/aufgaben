@@ -63,7 +63,9 @@
   /**
    * @TODO
    */
-  Note.prototype.onDelete = function () {};
+  Note.prototype.onDelete = function (note) {
+	return NotePad.prototype.remove(note);
+  };
 
   /**
    * @type {Note}

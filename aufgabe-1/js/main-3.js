@@ -1,0 +1,1 @@
+notePad.remove(note1);
